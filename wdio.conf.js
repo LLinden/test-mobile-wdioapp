@@ -15,6 +15,6 @@ exports.config = {
         "automationName": "UiAutomator2",
         "app": join(process.cwd(), './app/android/Android-NativeDemoApp-0.4.0.apk'),
         "adbExecTimeout": 40000,
-        "appWaitActivity": "com.wdiodemoapp/.MainActivity"
+        "appWaitActivity": "com.wdiodemoapp.MainActivity"
     }]
 }
