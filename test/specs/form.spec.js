@@ -7,5 +7,6 @@ describe("Access App and Fill Form", () => {
     formScreen.typeInputField("Test");
     formScreen.selectDropdownValueByIndex(0);
     formScreen.clickButtonActive();
+    formScreen.validateButtonOk();
   });
 });

@@ -25,7 +25,10 @@ class FormScreen {
 
     async clickButtonActive() {
         this.buttonActive.click()
-        this.buttonOk.click()
+    }
+
+    async validateButtonOk() {
+        expect(this.buttonOk).toBeDisplayed()
     }
 
 }
